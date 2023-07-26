@@ -1,6 +1,6 @@
 const findTwoNumbers = (arr, value) => {
-	for (num of arr) {
-		for (num2 of arr) {
+	for (let num of arr) {
+		for (let num2 of arr) {
 			if (num + num2 === value) {
 				return [num, num2];
 			}
